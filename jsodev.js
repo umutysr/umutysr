@@ -34,7 +34,7 @@ function odev29(){
 }
 function odev40(){
     alert("10 sayının negatif mi pozitif mi oldugunu bulan program");
-    alert("Nod-->bu uygulamada sonuçla girdiden sonra geliyor");
+    alert("Not-->bu uygulamada sonuçlar girdiden sonra geliyor örnek:1. 'sayi gir'-->sonuç");
     var x,y;
     for(x=1;x<=10;x++){
         y=Number(prompt(x));
