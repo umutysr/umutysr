@@ -1,7 +1,7 @@
 #anasayfa {
     width: 100%;
     position: absolute;
-    overflow: hidden;
+    overflow: auto;
     background-image: url(resim/arkaplan2.jpg);
     background-position: center;
     background-size: cover;
@@ -171,20 +171,15 @@ hr{
     top: -35px;
     position: relative;
 }
-#iletişim p:hover{
-    color:rgb(70, 221, 221);
-    transition: 2.0s;
-    font-size: 17px;
-    position: relative;
-}
+
 
 iframe{
     
-    top: 200px;
+    top: 150px;
     position: relative;
-    height: 280px;
+    height: 270px;
     width: 775px;
-    left: 24.5%;
+    left: 380px;
 }
 #hakkımdaiçerik{
     position: relative;
@@ -227,7 +222,16 @@ iframe{
     text-indent:10px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+#iletişim p a:link{color: whitesmoke;
+    text-decoration: none;
+}
+#iletişim p a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#iletişim p a:hover{
+    text-decoration: underline;
+}
 
 
 
