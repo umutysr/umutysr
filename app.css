@@ -151,7 +151,7 @@ ul li:hover {
     border-style: none;
     position: relative;
     margin: auto;
-    top: 180px;
+    top: 130px;
 }
 hr{
     position: relative;
@@ -175,16 +175,16 @@ hr{
 
 iframe{
     
-    top: 150px;
+    top: 100px;
     position: relative;
-    height: 250px;
+    height: 200px;
     width: 50%;
     left: 25%;
 }
 #hakkımdaiçerik{
     position: relative;
     margin-left: 320px;
-    margin-top:260px ;
+    margin-top:200px ;
 
 }
 #hakkımdaiçerik h1{
