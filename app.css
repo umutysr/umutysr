@@ -1,7 +1,7 @@
 #anasayfa {
     width: 100%;
     position: absolute;
-    overflow: auto;
+    overflow: scroll;
     background-image: url(resim/arkaplan2.jpg);
     background-position: center;
     background-size: cover;
@@ -177,9 +177,9 @@ iframe{
     
     top: 150px;
     position: relative;
-    height: 270px;
-    width: 775px;
-    left: 380px;
+    height: 250px;
+    width: 50%;
+    left: 25%;
 }
 #hakkımdaiçerik{
     position: relative;
