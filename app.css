@@ -259,12 +259,17 @@ iframe{
 #iletişim p a:hover{
     text-decoration: underline;
 }
-
+#jsodev{
+    position:relative;
+    width: 100%;
+    border-style: none;
+}
 
 #jsodev .js{
     float: right;
-    margin-right: 120px;
-    margin-bottom: 30px;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 10%;
     border-style: outset;
     border-color: black;
     width: 200px;
@@ -296,10 +301,7 @@ iframe{
 }
 
 
-#jsodev span{
-    position: relative;
-    right: 165px;
-}
+
 
 
 
@@ -329,12 +331,7 @@ iframe{
     box-shadow: 1px 1px 30px inset red;
     color: black;
   }
-
-
-
-
-
-
  .js p:hover{
     color: wheat;
  }
+ 
