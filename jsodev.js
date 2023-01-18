@@ -41,7 +41,7 @@ function odev40(){
         if(y<0){
             alert("negatif");
         }else if(y==0){
-            alert("sayı 0");
+            alert("girilen sayı sıfır yada sayı girilmemiş");
         }else{
             alert("sayı pozitif");
         }
@@ -127,5 +127,7 @@ function odev78(){
 
         }
     }
-
+    function deneme(){
+        alert("ali");
+    }
     

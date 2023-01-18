@@ -20,7 +20,7 @@
     z-index: 2;
 }
 #logo a img:hover{
-    width:72px ;
+    width:82px ;
     height: 72px;
     box-shadow: 2px 2px 100px red;
 }
@@ -147,23 +147,31 @@ ul li:hover {
     box-shadow: 1px 1px 100px;
 
 }
+
+
 #iletişim{
     border-style: none;
     position: relative;
     margin: auto;
     top: 130px;
 }
+
+
 hr{
     position: relative;
     width: 50%;
     top: -40px;
 }
+
+
 #iletişim h1{
     text-align: center;
     font-size: 50px;
-    color: whitesmoke;
+    color:rgb(225, 44, 44) ;
     
 }
+
+
 #iletişim p{
     text-align: center;
     word-spacing: 5px;
@@ -181,22 +189,30 @@ iframe{
     width: 50%;
     left: 25%;
 }
+
+
 #hakkımdaiçerik{
     position: relative;
     margin-left: 320px;
     margin-top:200px ;
 
 }
+
+
 #hakkımdaiçerik h1{
     color:rgb(225, 44, 44) ;
     font-size: 90px;
 }
+
+
 #hhr{
     top: -75px;
     left: -60px;
     position: relative;
 
 }
+
+
 #hakkımda{
     position: relative;
    margin-top: -50px;
@@ -205,9 +221,14 @@ iframe{
    display: inline-block;
  
 }
+
+
 #hakkımda img{
     border-radius: 5px;
 }
+
+
+
 #hakkımda p{
     border-style: none;
     width: 600px;
@@ -222,19 +243,98 @@ iframe{
     text-indent:10px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
 #iletişim p a:link{color: whitesmoke;
     text-decoration: none;
 }
+
+
 #iletişim p a:visited{
     color: whitesmoke;
     text-decoration: none;
 }
+
+
 #iletişim p a:hover{
     text-decoration: underline;
 }
 
 
+#jsodev .js{
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    border-style: outset;
+    border-color: black;
+    width: 200px;
+    height: 300px;    
+    position:relative;
+}
+
+
+
+.js button{
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+    padding: 8px;
+    color: red;
+    background-color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+
+
+.js p{
+    color: red;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+#jsodev span{
+    position: relative;
+    right: 165px;
+}
+
+
+
+@keyframes kenar{
+0% {border-style: dotted; }
+30% {border-style: dotted;  }
+50% {border-style: double;  }
+75% {border-style: solid; }
+100% {border-style:groove; }
+
+}
+.js{
+    
+    animation-name: kenar;
+    animation-duration: 4s;
+    transition: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+
+
+  .js button:hover{
+    background-color: whitesmoke;
+    transition: 2s;
+    text-decoration: underline;
+    box-shadow: 1px 1px 30px inset red;
+    color: black;
+  }
 
 
 
 
+
+
+ .js p:hover{
+    color: wheat;
+ }
